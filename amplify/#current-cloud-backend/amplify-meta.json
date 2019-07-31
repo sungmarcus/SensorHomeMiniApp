@@ -1,0 +1,33 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "heatmapminiapp-mobile-20190722180734-authRole",
+			"UnauthRoleArn": "arn:aws:iam::951446604970:role/heatmapminiapp-mobile-20190722180734-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::951446604970:role/heatmapminiapp-mobile-20190722180734-authRole",
+			"Region": "eu-west-1",
+			"DeploymentBucketName": "heatmapminiapp-mobile-20190722180734-deployment",
+			"UnauthRoleName": "heatmapminiapp-mobile-20190722180734-unauthRole",
+			"StackName": "heatmapminiapp-mobile-20190722180734",
+			"StackId": "arn:aws:cloudformation:eu-west-1:951446604970:stack/heatmapminiapp-mobile-20190722180734/333949f0-aca3-11e9-b03b-0664065f2f2e"
+		}
+	},
+	"api": {
+		"smartcampus": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY",
+				"GraphQLAPIIdOutput": "to6qbauo2veljapoqcx4csznly",
+				"GraphQLAPIEndpointOutput": "https://vbwgyub7azdzxakteik5xbquwm.appsync-api.eu-west-1.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-r75cokndardmll6oj4lapjvk7i"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/heatmapminiapp-mobile-20190722180734-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apismartcampus"
+			},
+			"lastPushTimeStamp": "2019-07-31T02:39:43.447Z",
+			"lastPushDirHash": "Gw+hw/nTKc3m6wtSPElEF2r4QVM="
+		}
+	},
+	"auth": {}
+}
