@@ -130,3 +130,33 @@ export const onDeleteLocation = `subscription OnDeleteLocation {
   }
 }
 `;
+export const onCreateReport = `subscription OnCreateReport {
+  onCreateReport {
+    id
+    name
+    description
+    longitude
+    latitude
+  }
+}
+`;
+export const onUpdateReport = `subscription OnUpdateReport {
+  onUpdateReport {
+    id
+    name
+    description
+    longitude
+    latitude
+  }
+}
+`;
+export const onDeleteReport = `subscription OnDeleteReport {
+  onDeleteReport {
+    id
+    name
+    description
+    longitude
+    latitude
+  }
+}
+`;

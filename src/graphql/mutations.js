@@ -130,3 +130,33 @@ export const deleteLocation = `mutation DeleteLocation($input: DeleteLocationInp
   }
 }
 `;
+export const createReport = `mutation CreateReport($input: CreateReportInput!) {
+  createReport(input: $input) {
+    id
+    name
+    description
+    longitude
+    latitude
+  }
+}
+`;
+export const updateReport = `mutation UpdateReport($input: UpdateReportInput!) {
+  updateReport(input: $input) {
+    id
+    name
+    description
+    longitude
+    latitude
+  }
+}
+`;
+export const deleteReport = `mutation DeleteReport($input: DeleteReportInput!) {
+  deleteReport(input: $input) {
+    id
+    name
+    description
+    longitude
+    latitude
+  }
+}
+`;

@@ -7,6 +7,5 @@
 				"securityType": "API_KEY"
 			}
 		}
-	},
-	"auth": {}
+	}
 }

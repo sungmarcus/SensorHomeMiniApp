@@ -81,12 +81,12 @@
 		"apismartcampus": {
 			"Type": "AWS::CloudFormation::Stack",
 			"Properties": {
-				"TemplateURL": "https://s3.amazonaws.com/heatmapminiapp-mobile-20190722180734-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"TemplateURL": "https://s3.amazonaws.com/smartcampus-mobile-20190801051509-deployment/amplify-cfn-templates/api/cloudformation-template.json",
 				"Parameters": {
 					"AppSyncApiName": "smartcampus",
 					"DynamoDBBillingMode": "PAY_PER_REQUEST",
-					"S3DeploymentBucket": "heatmapminiapp-mobile-20190722180734-deployment",
-					"S3DeploymentRootKey": "amplify-appsync-files/2a72fb8be0c3bd2abc5a054f18713c836276dc31",
+					"S3DeploymentBucket": "smartcampus-mobile-20190801051509-deployment",
+					"S3DeploymentRootKey": "amplify-appsync-files/7d443c08c83c6e90085bcbaaaee1d38d48379e17",
 					"env": "mobile"
 				}
 			}

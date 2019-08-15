@@ -122,3 +122,30 @@ export const listLocations = `query ListLocations(
   }
 }
 `;
+export const getReport = `query GetReport($id: ID!) {
+  getReport(id: $id) {
+    id
+    name
+    description
+    longitude
+    latitude
+  }
+}
+`;
+export const listReports = `query ListReports(
+  $filter: ModelReportFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listReports(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      description
+      longitude
+      latitude
+    }
+    nextToken
+  }
+}
+`;

@@ -9,6 +9,7 @@
   "dependencies": {
     "react": "16.8.3",
     "react-native": "0.59.8",
+    "react-native-ernnavigation-api": "0.0.5",
     "react-native-sensors": "5.3.0"
   },
   "devDependencies": {

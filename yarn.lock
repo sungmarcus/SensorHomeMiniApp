@@ -2006,6 +2006,11 @@ eventemitter3@^3.0.0:
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-3.1.2.tgz#2d3d48f9c346698fce83a85d7d664e98535df6e7"
   integrity sha512-tvtQIeLVHjDkJYnzf2dgVMxfuSGJeM/7UCG17TT4EumTfNtF+0nebF/4zWOIkCreAbtNqhGEboB6BWrwqNaw4Q==
 
+events@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/events/-/events-1.1.1.tgz#9ebdb7635ad099c70dcc4c2a1f5004288e8bd924"
+  integrity sha1-nr23Y1rQmccNzEwqH1AEKI6L2SQ=
+
 exec-sh@^0.2.0:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/exec-sh/-/exec-sh-0.2.2.tgz#2a5e7ffcbd7d0ba2755bdecb16e5a427dfbdec36"
@@ -4870,6 +4875,21 @@ react-is@^16.8.1, react-is@^16.8.3, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
+react-native-electrode-bridge@1.5.x:
+  version "1.5.19"
+  resolved "https://registry.yarnpkg.com/react-native-electrode-bridge/-/react-native-electrode-bridge-1.5.19.tgz#146051a478a0a709bc15e6d9746f7ea23061d46a"
+  integrity sha512-15PTawA0jYSpcG0Ej8GXjwOFCAWW4hbP/NK7ZAL/gxVifhiBhN2GcCxAP76hd4iwJCNMDn6D6qmTh542/ck+Fw==
+  dependencies:
+    events "^1.1.1"
+    uuid "^3.0.0"
+
+react-native-ernnavigation-api@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/react-native-ernnavigation-api/-/react-native-ernnavigation-api-0.0.5.tgz#7f6f4b25f3ef1cabe151ae532505b49eb4032732"
+  integrity sha512-lOV0iMHzlkBoPz/H9k3e13b8vaf2LNR9PhisCY4Bf5arv6/ogn0lScdkNyIIl3cV5ftCCrVDFYllDA/SEP4BvQ==
+  dependencies:
+    react-native-electrode-bridge "1.5.x"
+
 react-native-sensors@5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/react-native-sensors/-/react-native-sensors-5.3.0.tgz#8c89541f80a68c185ff2f7059c3078f4975c730c"
@@ -5979,7 +5999,7 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@^3.3.2:
+uuid@^3.0.0, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==

@@ -35,3 +35,11 @@ type Location @model {
   longitude: Float!
   latitude: Float!
 }
+
+type Report @model {
+  id: ID!
+  name: String
+  description: String
+  longitude: Float
+  latitude: Float
+}
